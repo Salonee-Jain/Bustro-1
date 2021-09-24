@@ -30,9 +30,6 @@ async def on_message(message):
     await message.channel.send(get_quote())
 
 
-
-  
-
   cuss_words = ["fuck", "asshole", "bastard", "cunt", "fucker", "bitch"]
 
   for i in cuss_words:
